@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
-import { Header } from "app/componentes/header";
+import { Header } from "app/componentes/shared/header/Header";
+import { Footer } from "app/componentes/shared/Footer";
 Header
+Footer
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,12 +12,16 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  console.log("pepe pecas")
+
   return (
-    <><Header /><html lang="en">
-      <body className={inter.className}>{children}
+    <html lang="en">
+     
+      <body>
+        <Header/>
         {children}
+        <Footer/>
       </body>
-    </html></>
+       
+    </html>
   );
 }

@@ -1,15 +1,16 @@
-
-
-import styles from "./page.module.css";
+import { Description } from "app/componentes/home/Description";
+import { MainProducts } from "app/componentes/home/MainProducts";
+import { Hero } from "app/componentes/home/Hero";
 
 export default function Home() {
 
-  console.log("hola esquites");
   return (
 
-    <main className={styles.main}>
+    <main>
      
-     <h1>hola mundo cruel</h1>
+     <Description/>
+     <Hero/>
+     <MainProducts/>
 
     </main>
   );
