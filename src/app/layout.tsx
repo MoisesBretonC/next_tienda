@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Header } from "app/componentes/shared/header/Header";
 import { Footer } from "app/componentes/shared/Footer";
+import 'app/sass/globals.sass'
 Header
 Footer
 
