@@ -1,7 +1,10 @@
 export const Description = () => {
     return (
         <section>
-            <h1>Description </h1>
+            <img src="/images/terreneitor.jpg" alt='Products marketplace'/>
+            <h2>Description</h2>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt possimus iusto harum, quam maiores sapiente? Harum vero assumenda quae! Iste ducimus quae tempore cupiditate itaque autem corporis laboriosam officia maiores.</p>
         </section>
     )
 }
