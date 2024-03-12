@@ -27,7 +27,7 @@ export const Description = () => {
             <button onClick={handleClick} className={buttonStyles}>
             <div className={styles.Description__imageContainer}>
             <Image
-             src="/images/910c97ae-e930-4cfa-afe0-67dba6a620ae.jpg" 
+             src="/images/terreneitor.jpg" 
 
              alt="products marketplace" 
              fill
