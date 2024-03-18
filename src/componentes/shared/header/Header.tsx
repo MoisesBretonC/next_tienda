@@ -15,6 +15,7 @@ return(
     <Link href="/store">
     <li>Store</li>
     </Link>
+    
   </ul>
 </nav>
 </header>
