@@ -3,6 +3,9 @@ import {Roboto} from 'next/font/google'
 import { Header } from "app/componentes/shared/header/Header";
 import { Footer } from "app/componentes/shared/Footer";
 import 'app/sass/globals.sass'
+import { Description } from "app/componentes/home/Description";
+import { Hero } from "app/componentes/home/Hero";
+Hero
 Header
 Footer
 
