@@ -1,7 +1,7 @@
 
 import { ProductsWrapper } from "app/componentes/home/Store/ProductsWrapper"
-// import { getCollections, getCollectionsProducts } from "app/services/shopify/collections"
-import { getProducts } from "app/services/shopify" 
+import { getCollections, getCollectionsProducts } from "app/services/shopify/collections"
+import { getProducts } from "app/services/shopify/products" 
 
 interface CategoriesProps {
     params: {
