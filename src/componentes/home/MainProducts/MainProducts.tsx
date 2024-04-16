@@ -3,8 +3,9 @@ import styles from './MainProducts.module.sass'
 import { getProducts } from 'app/services/shopify'
 
 export const MainProducts = async () => {
-   const products = await getProducts()
+   const products = await fetch('https://localhost:3000/api')
    console.log(products) 
+
     return(
         <section className={styles.MainProducts}>
         <h3>✨ New products released!</h3>
