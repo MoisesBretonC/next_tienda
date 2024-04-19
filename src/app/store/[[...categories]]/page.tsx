@@ -17,6 +17,7 @@ export default async function Categories(props: CategoriesProps){
     let products = []
     const collections = await getCollections()
     if(categories?.length > 0) {
+        
         const selectedCollectionId = collections.find((collection) => collection.handle === categories[0]).id
         products = await getCollectionsProducts(selectedCollectionId)
     }else{
