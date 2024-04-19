@@ -17,7 +17,7 @@ export default function NotFound(){
             </h2>
             <p className={styles.NotFound__description}>Pero nuestra tienda esta abierta las 24/7</p>
             <Link className={styles.NotFound__link} href="/store">
-                ¡Vamos de compras!
+                ¡Vamos de compras Yei!
                 </Link>
         </main>
     );
