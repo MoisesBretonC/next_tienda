@@ -1,16 +1,20 @@
-import { Description } from "app/componentes/home/Description";
+
 import { MainProducts } from "app/componentes/home/MainProducts";
-import { Hero } from "app/componentes/home/Hero";
+
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Future World 🌟",
+  description: "Welcome to the future world",
+  keywords: ["ecommerce", "future", "world"]
+}
 
 export default function Home() {
 
   return (
 
     <main>
-     
-     <Description/>
-     <Hero/>
-     <MainProducts/>
+      <h1>Products</h1>
+      <MainProducts/>
 
     </main>
   );
